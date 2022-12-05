@@ -21,6 +21,12 @@ public class employeeBackend {
     public  String  SearchEmployee(){
         return "Search Employee";
     }
+
+    @GetMapping("/viewall")
+    public  String ViewallEmployee(){
+        return  "View All Employee";
+
+    }
 }
 
 
