@@ -21,11 +21,9 @@ public class employeeBackend {
     public  String  SearchEmployee(){
         return "Search Employee";
     }
-
     @GetMapping("/edit")
-    public String EditEmployee(){
-        return "Edit employe";
-    }
+    public  String  editEmployee(){
+        return "Edit Employee";
 }
 
 
