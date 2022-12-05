@@ -16,4 +16,13 @@ public class employeeBackend {
         return "Add Employeee";
 
     }
+
+    @GetMapping("/search")
+    public  String  SearchEmployee(){
+        return "Search Employee";
+    }
 }
+
+
+
+
