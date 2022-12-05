@@ -7,23 +7,31 @@ import org.springframework.web.bind.annotation.RestController;
 public class employeeBackend {
 
     @GetMapping("/")
-    public String WelcomePage(){
+    public String WelcomePage() {
         return "Welcome to EmployeeApp";
     }
 
     @GetMapping("/add")
-    public  String Addemployee(){
+    public String Addemployee() {
         return "Add Employeee";
 
     }
 
     @GetMapping("/search")
-    public  String  SearchEmployee(){
+    public String SearchEmployee() {
         return "Search Employee";
     }
+
     @GetMapping("/edit")
-    public  String  editEmployee(){
+    public String editEmployee() {
         return "Edit Employee";
+    }
+
+    @GetMapping("/delete")
+    public  String deleteEmployee(){
+        return  "delete Employee";
+    }
+
 }
 
 
